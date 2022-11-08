@@ -1,7 +1,6 @@
 package Inlamningsuppgift;
 
 import org.junit.jupiter.api.Test;
-import org.w3c.dom.Text;
 
 import static org.junit.Assert.assertEquals;
 
@@ -32,7 +31,7 @@ public class myTestClass {
 
         //Act
         int expected = 0;
-        int actual = countWords.getNumberOfCharacters();
+        int actual = countWords.getNumberOfWords();
 
         //Assert
         assertEquals(expected, actual);
